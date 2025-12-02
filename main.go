@@ -45,6 +45,7 @@ func main() {
 	flag.Float64Var(&threshold, "threshold", 0.5, "threshold value for considering a response to be too slow (in seconds)")
 	flag.IntVar(&retries, "retries", 3, "number of retries for a failed request")
 	flag.Var(&urls, "urls", "Comma-separated list of URLs to check")
+	flag.Usage = customUsage
 	flag.Parse()
 
 	file, err := os.OpenFile(logFile, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
@@ -103,4 +104,15 @@ func checkURL(url string, threshold float64, retries int) {
 		fmt.Fprintf(os.Stderr, "Warning: %s response time (%v) exceeded threshold of %fs\n", url, duration, threshold)
 	}
 	logger.Printf("Checked %s, Status: %d , Response Time: %v\n", url, resp.StatusCode, duration)
+}
+
+func customUsage() {
+	fmt.Fprintf(flag.CommandLine.Output(), "Usage of %s:\n", os.Args[0])
+	fmt.Fprintf(flag.CommandLine.Output(), "This tool performs health checks on specified URLS.\n")
+	fmt.Fprintf(flag.CommandLine.Output(), "Options: \n")
+	flag.PrintDefaults()
+	fmt.Fprintf(flag.CommandLine.Output(), "\nExamples:\n")
+	fmt.Fprintf(flag.CommandLine.Output(), "  %s -url https://example.com\n", os.Args[0])
+	fmt.Fprintf(flag.CommandLine.Output(), "  %s -urls https://example.com,https://example2.com\n", os.Args[0])
+	fmt.Fprintf(flag.CommandLine.Output(), "  %s -curl https://example.com -logfile results.log\n", os.Args[0])
 }
