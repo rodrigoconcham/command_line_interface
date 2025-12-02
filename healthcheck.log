@@ -497,3 +497,95 @@ INFO: 2025/11/27 17:01:35 main.go:50: Checked http://www.google.com, Status: 200
 INFO: 2025/11/27 17:01:37 main.go:50: Checked http://www.google.com, Status: 200
 INFO: 2025/11/27 17:01:39 main.go:50: Checked http://www.google.com, Status: 200
 INFO: 2025/11/27 17:01:41 main.go:50: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:53:59 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:54:04 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:54:10 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:54:14 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:54:20 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:54:25 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:54:29 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:54:34 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:54:39 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:54:44 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:54:49 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:54:54 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:54:58 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:55:03 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:55:20 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:55:24 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:55:28 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:55:34 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:55:38 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:55:42 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:55:48 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:55:52 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:55:57 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:56:01 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:56:06 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:56:11 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:56:17 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:56:21 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:56:26 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:56:31 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:56:36 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:56:41 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:56:45 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:56:50 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:56:55 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:57:00 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:57:04 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:57:09 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:57:14 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:57:18 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:57:23 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:57:28 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:57:33 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:57:37 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:57:42 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:57:46 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:57:52 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:57:57 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:58:01 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:58:06 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:58:12 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:58:16 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:58:21 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:58:26 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:58:31 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:58:36 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:58:40 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:58:45 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:58:50 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:58:55 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:59:00 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:59:05 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:59:10 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:59:15 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 12:59:20 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 12:59:24 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 12:59:29 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 15:39:59 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 15:40:03 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 15:40:08 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 15:40:13 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 15:40:18 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 15:40:23 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 15:40:27 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 15:40:32 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 15:40:37 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 15:40:41 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 15:40:46 main.go:105: Checked http://www.yahoo.com, Status: 429
+INFO: 2025/12/02 15:40:50 main.go:105: Checked http://www.aol.com, Status: 429
+INFO: 2025/12/02 15:40:55 main.go:105: Checked http://www.google.com, Status: 200
+INFO: 2025/12/02 15:50:57 main.go:105: Checked http://www.google.com, Status: 200 , Response Time: 386.5505ms
+INFO: 2025/12/02 15:51:02 main.go:105: Checked http://www.yahoo.com, Status: 429 , Response Time: 225.5551ms
+INFO: 2025/12/02 15:51:07 main.go:105: Checked http://www.aol.com, Status: 429 , Response Time: 357.9379ms
+INFO: 2025/12/02 15:51:11 main.go:105: Checked http://www.google.com, Status: 200 , Response Time: 73.5689ms
+INFO: 2025/12/02 15:51:16 main.go:105: Checked http://www.yahoo.com, Status: 429 , Response Time: 285.9524ms
+INFO: 2025/12/02 15:51:21 main.go:105: Checked http://www.aol.com, Status: 429 , Response Time: 255.6368ms
+INFO: 2025/12/02 15:51:25 main.go:105: Checked http://www.google.com, Status: 200 , Response Time: 151.9623ms
+INFO: 2025/12/02 15:51:30 main.go:105: Checked http://www.yahoo.com, Status: 429 , Response Time: 228.8903ms
+INFO: 2025/12/02 15:51:35 main.go:105: Checked http://www.aol.com, Status: 429 , Response Time: 676.4525ms
+INFO: 2025/12/02 15:51:40 main.go:105: Checked http://www.google.com, Status: 200 , Response Time: 129.9684ms
+INFO: 2025/12/02 15:51:45 main.go:105: Checked http://www.yahoo.com, Status: 429 , Response Time: 456.3851ms
+INFO: 2025/12/02 15:51:50 main.go:105: Checked http://www.aol.com, Status: 429 , Response Time: 147.7232ms

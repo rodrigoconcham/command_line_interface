@@ -7,8 +7,22 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 )
+
+type URLList []string
+
+func (list *URLList) String() string {
+	return fmt.Sprint(*list)
+}
+
+func (list *URLList) Set(value string) error {
+	for _, url := range strings.Split(value, ",") {
+		*list = append(*list, url)
+	}
+	return nil
+}
 
 var (
 	url       string
@@ -19,6 +33,7 @@ var (
 	verbose   bool
 	threshold float64
 	retries   int
+	urls      URLList
 )
 
 func main() {
@@ -29,6 +44,7 @@ func main() {
 	flag.BoolVar(&verbose, "verbose", false, "run in verbose mode . overrides silent mode")
 	flag.Float64Var(&threshold, "threshold", 0.5, "threshold value for considering a response to be too slow (in seconds)")
 	flag.IntVar(&retries, "retries", 3, "number of retries for a failed request")
+	flag.Var(&urls, "urls", "Comma-separated list of URLs to check")
 	flag.Parse()
 
 	file, err := os.OpenFile(logFile, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
@@ -46,10 +62,16 @@ func main() {
 	}
 
 	ticker := time.NewTicker(interval)
-	defer ticker.Stop()
+	//defer ticker.Stop()
 
 	for range ticker.C {
-		checkURL(url, threshold, retries)
+		if url != "" {
+			checkURL(url, threshold, retries)
+		} else {
+			for _, u := range urls {
+				checkURL(u, threshold, retries)
+			}
+		}
 	}
 
 }
@@ -80,5 +102,5 @@ func checkURL(url string, threshold float64, retries int) {
 	if duration.Seconds() > threshold && verbose {
 		fmt.Fprintf(os.Stderr, "Warning: %s response time (%v) exceeded threshold of %fs\n", url, duration, threshold)
 	}
-	logger.Printf("Checked %s, Status: %d\n", url, resp.StatusCode)
+	logger.Printf("Checked %s, Status: %d , Response Time: %v\n", url, resp.StatusCode, duration)
 }
